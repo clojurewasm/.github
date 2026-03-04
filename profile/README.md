@@ -41,7 +41,7 @@ A fast, spec-compliant WebAssembly runtime.
 - Wins **14/23** benchmarks vs wasmtime, with **~43x smaller** binary
 - WASI support (file I/O, clock, random, args, environ)
 
-### kiso — ClojureScript Compiler in TypeScript *(coming soon)*
+### Kiso — ClojureScript Compiler in TypeScript *(coming soon)*
 
 A ClojureScript-to-JavaScript compiler. Early stage.
 
