@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://github.com/clojurewasm/ClojureWasm"><img src="https://img.shields.io/github/stars/clojurewasm/ClojureWasm?style=flat&label=ClojureWasm&color=f7a41d" alt="ClojureWasm stars"></a>
   <a href="https://github.com/clojurewasm/zwasm"><img src="https://img.shields.io/github/stars/clojurewasm/zwasm?style=flat&label=zwasm&color=f7a41d" alt="zwasm stars"></a>
+  <a href="https://github.com/clojurewasm/Kiso"><img src="https://img.shields.io/github/stars/clojurewasm/Kiso?style=flat&label=Kiso&color=f7a41d" alt="Kiso stars"></a>
   <a href="https://github.com/sponsors/chaploud"><img src="https://img.shields.io/github/sponsors/chaploud?logo=githubsponsors&logoColor=white&color=ea4aaa" alt="Sponsors"></a>
 </p>
 
@@ -41,9 +42,14 @@ A fast, spec-compliant WebAssembly runtime.
 - Wins **14/23** benchmarks vs wasmtime, with **~43x smaller** binary
 - WASI support (file I/O, clock, random, args, environ)
 
-### Kiso — ClojureScript Compiler in TypeScript *(coming soon)*
+### [Kiso](https://github.com/clojurewasm/Kiso) — ClojureScript Compiler in TypeScript
 
-A ClojureScript-to-JavaScript compiler. Early stage.
+A ClojureScript-to-JavaScript compiler + **su** component framework. Zero dependencies.
+
+- **[`@clojurewasm/kiso`](https://www.npmjs.com/package/@clojurewasm/kiso)** — compiler + runtime (~134 KB)
+- **[`@clojurewasm/su`](https://www.npmjs.com/package/@clojurewasm/su)** — reactive Web Component framework (~17 KB)
+- Vite plugin with HMR, source maps, tree-shaking
+- **[Live Showcase](https://clojurewasm.github.io/Kiso/)** — interactive demos in the browser
 
 ## Get Involved
 
@@ -51,4 +57,4 @@ A ClojureScript-to-JavaScript compiler. Early stage.
 - Report issues on each project's repository
 - [Sponsor development](https://github.com/sponsors/chaploud)
 
-<p align="center"><sub>ClojureWasm: <a href="https://www.eclipse.org/legal/epl-v10.html">EPL-1.0</a> / zwasm: <a href="https://opensource.org/licenses/MIT">MIT</a></sub></p>
+<p align="center"><sub>ClojureWasm: <a href="https://www.eclipse.org/legal/epl-v10.html">EPL-1.0</a> / zwasm: <a href="https://opensource.org/licenses/MIT">MIT</a> / Kiso: <a href="https://opensource.org/licenses/MIT">MIT</a></sub></p>
