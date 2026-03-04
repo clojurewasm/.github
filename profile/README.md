@@ -41,7 +41,7 @@ A fast, spec-compliant WebAssembly runtime.
 - Wins **14/23** benchmarks vs wasmtime, with **~43x smaller** binary
 - WASI support (file I/O, clock, random, args, environ)
 
-### [kiso](https://github.com/clojurewasm/kiso) — ClojureScript Compiler in TypeScript
+### kiso — ClojureScript Compiler in TypeScript *(coming soon)*
 
 A ClojureScript-to-JavaScript compiler. Early stage.
 
@@ -51,4 +51,4 @@ A ClojureScript-to-JavaScript compiler. Early stage.
 - Report issues on each project's repository
 - [Sponsor development](https://github.com/sponsors/chaploud)
 
-<p align="center"><sub>All projects are <a href="https://www.eclipse.org/legal/epl-v10.html">EPL-1.0</a> licensed.</sub></p>
+<p align="center"><sub>ClojureWasm: <a href="https://www.eclipse.org/legal/epl-v10.html">EPL-1.0</a> / zwasm: <a href="https://opensource.org/licenses/MIT">MIT</a></sub></p>
